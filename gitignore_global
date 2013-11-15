@@ -1,0 +1,7 @@
+.DS_Store
+.svn
+*~
+*.swp
+TAGS
+tags
+.sass-cache
