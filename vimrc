@@ -72,7 +72,7 @@ set incsearch
 set hlsearch
 
 
-" ================== Indentation, Tabs, Text =========================
+" ==================== Indentation, Tabs, Text =======================
 set autoindent
 set smartindent
 set smarttab
@@ -88,7 +88,7 @@ set wrap
 set list listchars=tab:\ \ ,trail:·
 
 
-" ================ Completion =======================
+" ============================= Completion ===========================
 set wildmode=list:longest
 set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
 set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
@@ -103,7 +103,7 @@ set wildignore+=tmp/**
 set wildignore+=*.png,*.jpg,*.gif
 
 
-" ================ Scrolling ========================
+" ============================ Scrolling ============================
 set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
@@ -114,8 +114,9 @@ set relativenumber
 set showmatch
 
 
-" ================ Custom Settings ========================
+" ========================= Custom Settings ==========================
 so ~/.vim/settings.vim
+
 
 " ====================== Plugin Settings =============================
 
@@ -133,7 +134,7 @@ so ~/.vim/settings.vim
 
 " Vimwiki
 "let g:vimwiki_list = [{'path': '~/Dropbox/wiki/',
-                       \ 'path_html': '~/Dropbox/wiki/html/',
-                       \'auto_export': 1}]
+"                       \ 'path_html': '~/Dropbox/wiki/html/',
+"                       \'auto_export': 1}]
 
 "let vimwiki_camel_case = 0
