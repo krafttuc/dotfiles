@@ -34,10 +34,18 @@ plugins=(rails git ruby osx)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs..
-# Make sure /usr/local/bin is before /usr/bin so that we can use homebrew resources.
-export PATH=/usr/local/bin:$PATH:
 
-# Ruby RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
-# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+### Encoding
+export LC_ALL="en_US.UTF-8"
 
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+### Make sure /usr/local/bin is before /usr/bin so that we can use homebrew resources.
+export PATH=/usr/local/bin:$PATH
+
+### Sublime command
+export PATH=$PATH:~/bin
+
+### RVM
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
