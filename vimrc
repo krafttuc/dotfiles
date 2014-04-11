@@ -85,7 +85,7 @@ set linebreak
 set wrap
 
 " Display tabs and trailing spaces visually
-set list listchars=tab:\ \ ,trail:Â·
+set list listchars=tab:\ \ ,trail:·
 
 
 " ============================= Completion ===========================
@@ -110,8 +110,8 @@ set sidescroll=1
 
 
 " ======================== User Interface ============================
-set relativenumber
 set showmatch
+set number
 
 
 " ========================= Custom Settings ==========================
@@ -121,7 +121,7 @@ so ~/.vim/settings.vim
 " ====================== Plugin Settings =============================
 
 " Taglist
-"nnoremap <Leader>tl :TlistToggle<CR>
+" nnoremap <Leader>tl :TlistToggle<CR>
 " let Tlist_Use_Right_Window = 1
 " let Tlist_Show_One_File = 1
 " let Tlist_Exit_OnlyWindow = 1
