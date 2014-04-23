@@ -1,8 +1,8 @@
 # ~tym
 
-My dotfiles. For backup usage.
+I put my dotfiles here for backup usage. I'm using Mac OS X.
 
-* ZSH config based on [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
-* Vim/MacVim config
-* Git config
-
+* ZSH configuration based on [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
+* Vim/MacVim configuration
+* Git configuration
+* Sublime Text 2 preferences
