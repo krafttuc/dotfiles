@@ -38,14 +38,8 @@ source $ZSH/oh-my-zsh.sh
 ### Encoding
 export LC_ALL="en_US.UTF-8"
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-### Make sure /usr/local/bin is before /usr/bin so that we can use homebrew resources.
-export PATH=/usr/local/bin:$PATH
-
-### Sublime command
-export PATH=$PATH:~/bin
+### Heroku Toolbelt, Homebrew resources, system path, ~/bin
+export PATH="/usr/local/heroku/bin:/usr/local/bin:$PATH:~/bin/"
 
 ### RVM
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
