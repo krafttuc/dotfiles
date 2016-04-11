@@ -1,6 +1,7 @@
 [user]
   name = Yiming Tang
   email = yimingnju@gmail.com
+  signingkey = 69F08C5E
 [alias]
   addall = add --all
   ci = commit
@@ -27,3 +28,5 @@
   trustExitCode = true
 [push]
   default = simple
+[commit]
+  gpgsign = true
